@@ -558,7 +558,7 @@ getJokes().then(function(returnVal) {
             case "tell.joke":
                 var i = Math.floor(Math.random() * affirmations.length);
                 var affirm = affirmations[i];
-                text = affirm + ", " + tellJokes()
+                text = affirm + ". " + tellJokes()
                 text += " Just say 'another one' for more or 'no thanks' to make me stop!";
                 break;
 
